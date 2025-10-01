@@ -1263,6 +1263,7 @@ class ProjectCreator:
         ''')
     
     def _print_summary(self):
+        ...
         print(f"\n{'='*70}")
         print("✅ Project Created Successfully!")
         print(f"{'='*70}\n")
@@ -1281,7 +1282,6 @@ class ProjectCreator:
         print("   - scripts/setup-phase1.sh - Complete setup\n")
     ''')
 '''
-
 def main():
     parser = argparse.ArgumentParser(description='Create multi-agent project')
     parser.add_argument('project_name', nargs='?', default='multi-agent-system')

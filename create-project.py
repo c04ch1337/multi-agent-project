@@ -1279,7 +1279,8 @@ class ProjectCreator:
         print("   - README.md - Project overview")
         print("   - Makefile - Quick commands")
         print("   - scripts/setup-phase1.sh - Complete setup\n")
-
+    ''')
+'''
 
 def main():
     parser = argparse.ArgumentParser(description='Create multi-agent project')
